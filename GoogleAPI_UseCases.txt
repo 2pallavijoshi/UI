@@ -1,0 +1,23 @@
+Create weather API widget using javascript
+
+- create textbox on UI
+- display country List
+- Populate state 
+- Populate City city 
+- after choosing city show weather and current temprature
+
+
+An example request is below, showing a search for Places of type 'food' within a 500m radius of a point in Sydney, Australia, containing the word 'harbour' in their name:
+
+
+The below example returns a list of museums near London, England.
+https://maps.googleapis.com/maps/api/place/radarsearch/json?location=51.503186,-0.126446&radius=5000&types=museum&sensor=false&key=AddYourOwnKeyHere
+
+Get Lat and Long values of Sunnyvale
+
+
+https://maps.googleapis.com/maps/api/geocode/json?address=santa+cruz&components=country:ES&sensor=false&key=AIzaSyDOerTagX-iOEn_kYKJmjK3UmPBLiAWxN0
+
+http://maps.googleapis.com/maps/api/geocode/xml?address=Sunnyvale;94086&sensor=false
+
+http://maps.googleapis.com/maps/api/geocode/json?address=Sunnyvale;94086&sensor=false
